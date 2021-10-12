@@ -71,7 +71,7 @@ const Product = ({ item }) => {
       <Image src={item.img} />
       <Info>
         <Icon>
-        <a href="https://wa.me/56945879780" target="_blank" rel="noreferrer"><ShoppingCartOutlined /></a>
+        <a href={item.msjWs} target="_blank" rel="noreferrer"><ShoppingCartOutlined /></a>
 
         </Icon>
       </Info>
